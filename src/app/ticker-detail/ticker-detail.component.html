@@ -1,0 +1,10 @@
+
+<li *ngFor="let t of stockArr" >
+  <span> <b> Date: </b>  {{ t.date|date:'fullDate'  }}  || </span>
+        <span>  <b> Symbol: </b>  {{ t.symbol }}  || </span>
+        <span>  <b> Open: </b>  {{ t.open }}  </span>
+        <span>  <b> Close: </b>  {{ t.close }}  </span>
+        <span>  <b> Low: </b>  {{ t.low }}  </span>
+        <span>  <b> High: </b>  {{ t.high }}  </span>
+        <span>  <b> Volume: </b>  {{ t.volume }}  </span> 
+</li>

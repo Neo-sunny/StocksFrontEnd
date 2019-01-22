@@ -1,0 +1,9 @@
+<div class="container">
+<div class="button-row">
+<mat-nav-list>
+  <mat-list-item *ngFor="let stock of _tickers">
+      <a mat-raised-button routerLink="/stocks/{{stock.symbol}}" color="accent"> {{stock.symbol}}</a>
+  </mat-list-item>
+</mat-nav-list>
+</div>
+</div>
